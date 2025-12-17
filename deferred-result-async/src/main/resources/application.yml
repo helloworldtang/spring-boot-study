@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  tomcat:
+    threads:
+      max: 2
+      min-spare: 1
+    max-connections: 5
+    accept-count: 1
+
+logging:
+  level:
+    root: info
+    com.example.deferred: info
+  pattern:
+    console: "%d{HH:mm:ss.SSS} %-5level [%thread] %X{requestId} %logger %class:%line - %msg%n"

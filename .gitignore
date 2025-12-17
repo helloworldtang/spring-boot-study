@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# Build
+target/
+
+# Logs & temp
+*.log
+logs/
+tmp/
+
+# Env & secrets
+.env
+.env.*
+
+# Trae/Editor cache (if any)
+.cache/
+.trae/
+
