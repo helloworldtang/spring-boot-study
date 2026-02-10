@@ -53,6 +53,7 @@ public class SubmatrixChecker {
                 matrixB[i] = scanner.nextLine().trim();
             }
 
+            System.out.println(" ");
             // 判断并输出结果
             if (isSubmatrix(matrixA, matrixB, m, n)) {
                 System.out.println("Yes");
