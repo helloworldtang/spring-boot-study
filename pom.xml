@@ -8,6 +8,7 @@
 
     <modules>
         <module>deferred-result-async</module>
+        <module>interview</module>
     </modules>
 
     <properties>
